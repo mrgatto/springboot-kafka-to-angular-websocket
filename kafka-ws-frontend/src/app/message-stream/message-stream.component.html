@@ -1,0 +1,16 @@
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+
+  Produce nº messages: <input type="number" id="numberInput" formControlName="nMessage">
+  <button type = "submit">Start Kafka Sample Message Producer</button>
+
+</form>
+
+<BR />
+
+<div>
+
+  <p *ngIf="messages.length == 0">Empty here. Produce some messages.</p>
+
+  <p *ngFor="let msg of messages">{{ msg }}</p>
+
+</div>

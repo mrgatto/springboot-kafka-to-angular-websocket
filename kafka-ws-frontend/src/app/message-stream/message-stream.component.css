@@ -1,0 +1,14 @@
+input {
+    width: 50px;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    border: 2px solid green;
+}
+
+p {
+    padding-left: 5px;
+}
