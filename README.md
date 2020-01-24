@@ -7,7 +7,8 @@ bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-fac
 
 ### Start the frontend
 
-ng serve --proxy-config=proxy.conf.json
+npm install
+npm start
 
 Open http://localhost:4200/.
 
