@@ -1,5 +1,5 @@
 ## Stream Kafka messages to an Angular application through Websocket with Spring Boot
-Demo application that reads data from Apache Kafka and send it to an Angular web application.
+Demo application that reads data from [Apache Kafka](https://kafka.apache.org/) and send it to an Angular web application.
 
 ### Set up your Kafka topic
 
